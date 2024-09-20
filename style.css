@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#header{
+    padding: 20px 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav a{
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.nav a:hover{
+    color: #0C76D8;
+}
+
+.nav span{
+    color: #0C76D8;
+}
+
+.header__center{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__market{
+    width: 35px;
+}
+
+.header__sup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.header__sup select{
+    color: #2A2D46;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+
+.header__center button{
+    border: 1px solid #EB2D66;
+    width: 130px;
+    height: 30px;
+    background: transparent;
+    font-size: 11px;
+    font-weight: 700;
+    color: #EB2D66;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.header__center button:hover{
+    color: white;
+    background: #EB2D66;
+}
+
+.header__nut{
+    color: #2A2D46;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__images{
+    position: relative;
+}
+
+.droun{
+    position: absolute;
+    top: 35px;
+    left: -165px;
+    animation: droun-anim 3s linear;
+}
+
+@keyframes droun-anim{
+    0%{
+        transform: translateY(-500px);
+        width: 200px;
+    }
+
+    50%{
+        transform: translateX(-500px);
+    }
+
+    80%{
+        width: 350px;
+        transform: rotate(-45deg);
+    }
+
+    100%{
+        width: 700px;
+    }
+}
+
+.droune__text{
+    position: absolute;
+    left: 400px;
+    bottom: 40px;
+}
+
+.droune__text h5{
+    color: white;
+    font-size: 16px;
+}
+
+.droune__text p{
+    color: #FFFFFF;
+    font-size: 13px;
+
+}
+
+
+.hero__info h1{
+    color: #2A2D46;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.hero__info p{
+    color:#3f4258;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.26px;
+    padding: 20px 0;
+}
+
+.hero__info button{
+    width: 244px;
+    height: 57px;
+    background: Цвет акцента;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    background: #EB2D66;
+    border: none;
+}
+
+
+.figur{
+    clip-path: inset(5% 27% 50% 10%);
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    left: 380px;
+    bottom: 120px;
+}
+
+#karta{
+    padding: 120px 0;
+}
+
+.karta__block{
+    display: flex;
+    align-items: center;
+    gap: 67px;
+}
+
+.karta__block h1{
+    font-weight: 900px;
+    font-size: 25px;
+    line-height: 30.48px;
+}
+
+.karta__block a{
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.karta__block a:hover{
+    color: #e12016;
+}
+
+.karta__block span{
+    color: #0C76D8;
+}
+
+.karta__info{
+    display: flex;
+    align-items: center;
+}
+
+.mart__blok{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.kart__inf{
+    display: flex;
+    align-items: center;
+}
+
+.mut__inf{
+    display: flex;
+    align-items: center;
+}
+
+.text__blok h1{
+font-weight: 900;
+font-size: 25px;
+line-height: 30.48px;
+color: #2A2D46;
+}
+
+.text__juk{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+    gap: 50px;
+}
+
+.text__juk h1{
+    font-weight: 900;
+    font-size: 25px;
+    color: #2A2D46;
+}
+
+.text__bit h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: #2A2D46;
+}
+
+.text__bit p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #2A2D46;
+}
+
+.text__bot h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: #2A2D46;
+}
+
+.text__bot p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #2A2D46;
+}
+
+.text__bat h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: #2A2D46;
+}
+
+.text__bat p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #2A2D46;
+}
+
+.text__bet h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: #2A2D46;
+}
+
+.text__bet p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #2A2D46;
+}
+
+.hop__lit img{
+    width: 1600px;
+    height: 310px;
+    top: 3393px;
+}
